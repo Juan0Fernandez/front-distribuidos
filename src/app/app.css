@@ -1,0 +1,14 @@
+:host { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; display: block; background: #f0f2f5; min-height: 100vh; padding: 2rem; }
+.dashboard { max-width: 900px; margin: 0 auto; }
+.header { text-align: center; margin-bottom: 2rem; color: #1a202c; }
+.grid-container { display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem; margin-bottom: 2rem; }
+.card { background: white; padding: 2rem; border-radius: 10px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); text-align: center; }
+.btn-primary, .btn-secondary { padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer; font-weight: bold; font-size: 1rem; transition: transform 0.2s; }
+.btn-primary { background: #3182ce; color: white; }
+.btn-secondary { background: #38a169; color: white; }
+.btn-primary:active, .btn-secondary:active { transform: scale(0.95); }
+.console-panel { background: white; padding: 2rem; border-radius: 10px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+.status-box { margin-top: 1rem; padding: 1.5rem; border-radius: 5px; background: #2d3748; color: #e2e8f0; font-family: monospace; font-size: 1.1rem; }
+.highlight { color: #68d391; font-weight: bold; font-size: 1.2rem; }
+.error { border-left: 5px solid #e53e3e; }
+.success { border-left: 5px solid #48bb78; }
