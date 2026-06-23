@@ -9,7 +9,7 @@ import { CommonModule } from '@angular/common';
   styleUrl: './app.css'
 })
 export class App {
-  apiUrl = 'http://18.226.240.189/api';
+  apiUrl = 'http://3.134.92.235/api';
   
   nodoRespuesta = '';
   mensajeRespuesta = 'Ninguna petición enviada aún.';
